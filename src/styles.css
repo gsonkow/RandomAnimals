@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: orange;
+  background-image: linear-gradient(0deg, orange, rgb(165, 60, 60));
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+}
+
+h1,
+footer {
+  background-color: maroon;
+  color: blanchedalmond;
+  text-shadow: 1px 2px 2px black;
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+}
+
+#buttons {
+  padding: 1%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
